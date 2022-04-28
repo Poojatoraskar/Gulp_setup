@@ -1,0 +1,43 @@
+.slider_one {
+    position: relative;
+    .girlimgbackground {
+        width: 660px;
+        height: 410px;
+        margin-left: 6.5rem;
+        margin-bottom: 2rem;
+    }
+    .girlimg {
+        width: 300px;
+        height: 470px;
+        position: absolute;
+        top: 1rem;
+        left: 7rem;
+    }
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel button.owl-dot {
+        color: white;
+    }
+    .homecarousel .owl-nav button:focus {
+        outline: none;
+    }
+    .homecarousel .owl-nav {
+        position: absolute;
+        top: 27rem;
+    }
+    .homecarousel {
+        .owl-nav {
+            position: sticky;
+        }
+    }
+    .desktop-view-block {
+        background-color: red;
+    }
+    .mobile-view-block {
+        display: none;
+    }
+}
+
+.test {
+    height: percentage(10/20);
+}

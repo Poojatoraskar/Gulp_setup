@@ -1,0 +1,41 @@
+.slider_one {
+  position: relative;
+}
+.slider_one .girlimgbackground {
+  width: 660px;
+  height: 410px;
+  margin-left: 6.5rem;
+  margin-bottom: 2rem;
+}
+.slider_one .girlimg {
+  width: 300px;
+  height: 470px;
+  position: absolute;
+  top: 1rem;
+  left: 7rem;
+}
+.slider_one .owl-carousel .owl-nav button.owl-prev,
+.slider_one .owl-carousel .owl-nav button.owl-next,
+.slider_one .owl-carousel button.owl-dot {
+  color: white;
+}
+.slider_one .homecarousel .owl-nav button:focus {
+  outline: none;
+}
+.slider_one .homecarousel .owl-nav {
+  position: absolute;
+  top: 27rem;
+}
+.slider_one .homecarousel .owl-nav {
+  position: sticky;
+}
+.slider_one .desktop-view-block {
+  background-color: red;
+}
+.slider_one .mobile-view-block {
+  display: none;
+}
+
+.test {
+  height: 50%;
+}
